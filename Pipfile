@@ -11,6 +11,7 @@ pipfile = "*"
 django-allauth = "*"
 pillow = "*"
 stripe = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 
