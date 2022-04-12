@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: gunicorn bookstore_project.wsgi -b 0.0.0.0:8000
+    command: gunicorn mysite.wsgi -b 0.0.0.0:8000
     environment:
       - SECRET_KEY=b3g7v3n3i=*u2h6e41(ci9ojh03*=$agv9ovw&(w0sh@se*v%dsdadexsuadg123
       - DEBUG=1
